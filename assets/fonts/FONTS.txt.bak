@@ -1,12 +1,9 @@
 TITRE; ROBOTO; 
 TITRE 2; ROBOTO;
 TITRE 3; ROBOTO;
-
 TEXTE ; OPEN SANS; 
 
 
-
-Remerciements
- 
- Tout d’abord je tiens à remercier Mr Bonduel et l’entreprise LINK Mobility d’avoir accepté de me prendre en stage dans leur entreprise.
-Je remercie particulièrement Mr Bonduel d’avoir accepté de me prendre en stage à son domicile. 
+roboto : <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">

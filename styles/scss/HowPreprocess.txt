@@ -1,7 +1,0 @@
-./dart-sass/sass --help
-
-./dart-sass/sass sass/style.scss
-
-./dart-sass/sass sass/style.scss style.css
-
-./dart-sass/sass sass/style.scss style.css --watch
