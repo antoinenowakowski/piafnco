@@ -1,6 +1,3 @@
-body {
-    height: 10000px;
-}
 
 header {
     width: 100%;
@@ -117,4 +114,18 @@ header {
 }
 .showMenu {
     transform: translateY(0);
+}
+.menuIcon {
+    background: url(../../assets/icons/baseline_menu_black_24dp.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.closeIcon {
+    background: url(../../assets/icons/outline_close_black_24dp.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
 }
