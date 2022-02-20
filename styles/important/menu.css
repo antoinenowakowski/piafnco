@@ -1,10 +1,11 @@
 
-header {
+.navigation {
     width: 100%;
     height: 100px;
     display: flex;
     position: fixed;
     justify-content: space-between;
+    background-color: #fff;
 }
 .contain-link-logo {
     width: 400px;

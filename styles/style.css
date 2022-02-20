@@ -1,0 +1,23 @@
+/* div entry */
+
+.entry {
+    padding-top: 100px;
+}
+.green-shape-title-img {
+    display: flex;
+}
+.green-shape {
+    width: 1480px;
+    height: 610px;
+    background-color: #34421e   ;
+}
+.img-entry {
+    z-index: 100;
+    width: 930px;
+    height: 672px;
+    border: 1px solid #34421E;
+    box-sizing: border-box;
+    position: absolute;
+    left: 66%;
+    top: 15%;
+}
