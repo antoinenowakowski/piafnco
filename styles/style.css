@@ -9,15 +9,44 @@
 .green-shape {
     width: 1480px;
     height: 610px;
-    background-color: #34421e   ;
+    background-color: #34421e;
+    z-index: -2;
+}
+.motto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 40px;
 }
 .img-entry {
-    z-index: 100;
+    z-index: -1;
     width: 930px;
     height: 672px;
-    border: 1px solid #34421E;
-    box-sizing: border-box;
+    border: 2px solid #34421E;
     position: absolute;
-    left: 66%;
+    left: 50%;
     top: 15%;
+}
+
+.orange-shape-imgs {
+    z-index: -2;
+    background-color: #C19434;
+    width: 800px; height: 400px;
+    position: absolute;
+    top: 60%; left: 10%;
+    display: flex;
+}
+.imgs {
+    width: 350px; height: 350px;
+}
+.imgs:nth-child(1) {
+    position: absolute;
+    top: 20%; left: -10%;
+    background: url(../assets/Imgs/IMG1.png);
+}
+.imgs:nth-child(2) {
+    position: absolute;
+    top: 20%; left: 40%;
+    background: url(../assets/Imgs/IMG2.png);
 }
