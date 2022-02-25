@@ -27,6 +27,12 @@
     position: absolute;
     left: 50%;
     top: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/Imgs/image\ tout\ le\ monde.jpg);
+}
+.img-entry-second {
+    
 }
 
 .orange-shape-imgs {
@@ -49,4 +55,64 @@
     position: absolute;
     top: 20%; left: 40%;
     background: url(../assets/Imgs/IMG2.png);
+}
+
+/* NOUS */
+
+.nous {
+    background-color: red;
+    width: 100%; height: 1000px;
+    margin-top: 100px;
+
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1780px) {
+    .img-entry {
+        z-index: -1;
+        width: 790px;
+        height: 512px;
+        border: 2px solid #34421E;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../assets/Imgs/image\ tout\ le\ monde.jpg);
+    }
+}
+@media screen and (max-width: 1024px) {
+    .motto {
+        font-family: 'Roboto', sans-serif;
+        font-size: 64px;
+        color: #fff;
+        padding-left: 20px;
+        padding-top: 40px;
+        text-align: center;
+ 
+    }
+    .orange-shape-imgs {
+        z-index: -2;
+        background-color: #C19434;
+        width: 800px; height: 400px;
+        margin-top: 250px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        transform: rotate(90deg);
+    }
+    .imgs:nth-child(1) {
+        position: absolute;
+        top: 20%; left: 10%;
+        background: url(../assets/Imgs/IMG1.png);
+        transform: rotate(-90deg);
+    }
+    .imgs:nth-child(2) {
+        position: absolute;
+        top: 20%; left: 60%;
+        background: url(../assets/Imgs/IMG2.png);
+        transform: rotate(-90deg);
+    }
 }
