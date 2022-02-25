@@ -12,7 +12,11 @@ html {
     padding: 0;
     font-weight: normal;
   }
-  
+  .contain-body {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
   ol, ul {
     list-style: none;
   }
