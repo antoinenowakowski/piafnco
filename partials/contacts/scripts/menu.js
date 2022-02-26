@@ -24,3 +24,9 @@ menuItems.forEach(
     menuItem.addEventListener("click", toggleMenu);
   }
 )
+
+if (outerHeight < 820 & outerWidth < 520) {
+  document.querySelector('.contain-button-link-menu').innerHTML = "";
+} else {
+  console.log("no");
+}

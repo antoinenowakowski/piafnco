@@ -6,8 +6,3 @@ if (outerWidth < 1560) {
     console.log("no !")
 }
 
-if (outerHeight < 820 & outerWidth < 520) {
-    document.querySelector('.contain-button-link-menu').innerHTML = "";
-} else {
-    console.log("no");
-}
