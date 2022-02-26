@@ -1,9 +1,30 @@
-/* div entry */
+/* section entry */
 
 .contain-first-part {
     padding-top: 100px;
 }
-
+.green-shape {
+    width: 70%;
+    height: 600px;
+    background-color: #34421E;
+}
+.image-entry {
+    width: 930px; height: 670px;
+    background-image: url(../assets/Imgs/image\ tout\ le\ monde.jpg);
+    margin-top: -513px;
+    margin-left: 820px;
+    border: 2px solid #34421E;
+}
+.img-entry-second {
+    width: 0;
+}
+.motto {
+    font-family: 'roboto', sans-serif;
+    font-size: 64px;
+    color: #fff;
+    margin-top: -30%; margin-left: 1%;
+    margin-bottom: 10%;
+}
 /* NOUS */
 
 /* .nous {
@@ -16,49 +37,31 @@
 /* responsive */
 
 @media screen and (max-width: 1780px) {
-    .img-entry {
-        z-index: -1;
-        width: 790px;
-        height: 512px;
-        border: 2px solid #34421E;
-        position: absolute;
-        left: 50%;
-        top: 15%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url(../assets/Imgs/image\ tout\ le\ monde.jpg);
+    
+}
+@media screen and (max-width: 1200px) {
+    .motto {
+        font-family: 'roboto', sans-serif;
+        font-size: 46px;
+        color: #fff;
+        margin-top: -50%; margin-left: 1%;
+        margin-bottom: 10%;
     }
 }
 @media screen and (max-width: 1024px) {
+     
+}
+@media screen and (max-width: 550px) {
     .motto {
-        font-family: 'Roboto', sans-serif;
-        font-size: 64px;
+        font-family: 'roboto', sans-serif;
+        font-size: 36px;
         color: #fff;
-        padding-left: 20px;
-        padding-top: 40px;
-        text-align: center;
- 
+        margin-top: -65%; margin-left: 1%;
+        margin-bottom: 10%;
     }
-    .orange-shape-imgs {
-        z-index: -2;
-        background-color: #C19434;
-        width: 800px; height: 400px;
-        margin-top: 250px;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        transform: rotate(90deg);
-    }
-    .imgs:nth-child(1) {
-        position: absolute;
-        top: 20%; left: 10%;
-        background: url(../assets/Imgs/IMG1.png);
-        transform: rotate(-90deg);
-    }
-    .imgs:nth-child(2) {
-        position: absolute;
-        top: 20%; left: 60%;
-        background: url(../assets/Imgs/IMG2.png);
-        transform: rotate(-90deg);
+    .green-shape {
+        width: 70%;
+        height: 400px;
+        background-color: #34421E;
     }
 }
