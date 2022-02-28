@@ -85,12 +85,24 @@
 @media screen and (max-width: 1024px) {
      
 }
+@media screen and (max-width: 850px) {
+    .layout {
+        background-color: #C19434;
+        width: 18rem; height: 40rem;
+        position: absolute;
+        top: 35em; left: 5em;
+        display: flex;
+        flex-direction: column;        
+        justify-content: space-around;
+        z-index: 0;
+    }
+}
 @media screen and (max-width: 550px) {
     .motto {
         font-family: 'roboto', sans-serif;
         font-size: 36px;
         color: #fff;
-        margin-top: -65%; margin-left: 1%;
+        margin-top: -75%; margin-left: 1%;
         margin-bottom: 10%;
     }
     .green-shape {
