@@ -6,6 +6,7 @@
     position: fixed;
     justify-content: space-between;
     background-color: #fff;
+    z-index: 999;
 }
 .contain-link-logo {
     width: 400px;
@@ -52,12 +53,16 @@
     transform: translateY(6px);
     box-shadow: none;
 }
+
 .title-buy {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
 }
-
+.title-buy > a {
+    text-decoration: none;
+    color: #fff;
+}
 .title-menu {
     font-family: 'Roboto', sans-serif;
     font-size: 144px;
