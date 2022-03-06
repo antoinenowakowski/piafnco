@@ -1,129 +1,141 @@
-/* section entry */
+/* header */
 
-.contain-first-part {
-    padding-top: 100px;
-    height: 90vh;
-}
-.green-shape {
-    width: 70%;
-    height: 600px;
-    background-color: #34421E;
-}
-.image-entry {
-    width: 930px; height: 670px;
-    background-image: url(../assets/Imgs/image\ tout\ le\ monde.jpg);
-    margin-top: -513px;
-    margin-left: 820px;
-    border: 2px solid #34421E;
-}
-.img-entry-second {
-    width: 0;
-}
-.motto {
-    font-family: 'roboto', sans-serif;
-    font-size: 64px;
-    color: #fff;
-    margin-top: -30%; margin-left: 1%;
-    margin-bottom: 10%;
-}
-.orange-shape {
-
-}
-.layout {
-    background-color: #C19434;
-    width: 40rem; height: 18rem;
-    position: absolute;
-    top: 40em; left: 15em;
+header {
+    background-color: #fff;
+    width: 100%; height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: fixed;
 }
-.imgs {
-    width: 300px; height: 300px;
-    margin-top: 4rem; margin-left: -2rem;
+.contain-title-and-logo {
+    display: flex;
+    width: 100%;
 }
-.imgs:nth-child(1) {
-    background-image: url(../assets/Imgs/IMG1.png);
+#name {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 72px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
-.imgs:nth-child(2) {
-    background-image: url(../assets/Imgs/IMG2.png);
+#logo {
+    width: 100px; height: 100px;
+    margin-top: 17px;
+    margin-left: 15px;
 }
 
 
-/* NOUS */
+/* entry */
 
-/* .nous {
-    background-color: red;
-    width: 100%; height: 1000px;
-    margin-top: 100px;
-} */
+.container-motto-text-button-entry {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.container-text {
+    justify-content: center;
+    margin-top: 200px;
+}
+.contain-motto-text {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 72px;
+    text-align: center;
+    color: #005B3A;
+}
+.contain-text-presentation {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.container-button-buy {
+
+    display: flex;
+    justify-content: center;
+}
+.contain-button {
+    margin-top: 50px;
+}
+.button {
+    width: 160px; height: 80px;
+    background-color: #005B3A;
+    border-radius: 40px;
+    box-shadow: 0px 8px #152821;
+}
+.button:active {
+    transform: translateY(8px);
+    box-shadow: 0px 0px;
+}
+.button > a {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.green-wave {
+    width: auto; height: auto;
+}
 
 
-/* responsive */
+/* product */
 
-@media screen and (max-width: 1780px) {
-    
+.product {
+    background-color: #FFFDF2;
+    display: flex;
+    flex-direction: column;
 }
-@media screen and (max-width: 1200px) {
-    .motto {
-        font-family: 'roboto', sans-serif;
-        font-size: 46px;
-        color: #fff;
-        margin-top: -50%; margin-left: 1%;
-        margin-bottom: 10%;
-    }
+.contain-title-product {
+    justify-content: center;
 }
-@media screen and (max-width: 1040px) {
-    .layout {
-        background-color: #C19434;
-        width: 40rem; height: 18rem;
-        position: absolute;
-        top: 35em; left: 10em;
-        display: flex;
-        justify-content: space-around;
-    }
+.title-product-and-service {
+    color: #152821;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 50px;
 }
-@media screen and (max-width: 1024px) {
-     
+.container-title-imgs {
+    display: flex;
+    justify-content: center;
 }
-@media screen and (max-width: 850px) {
-    .layout {
-        background-color: #C19434;
-        width: 18rem; height: 40rem;
-        position: absolute;
-        top: 35em; left: 5em;
-        display: flex;
-        flex-direction: column;        
-        justify-content: space-around;
-        z-index: 0;
-    }
+.contain-title-product-and-description {
+    flex-direction: column;
+    width: 50%;
+    text-align:center;
+    margin-top: 150px;
 }
-@media screen and (max-width: 550px) {
-    .motto {
-        font-family: 'roboto', sans-serif;
-        font-size: 36px;
-        color: #fff;
-        margin-top: -75%; margin-left: 1%;
-        margin-bottom: 10%;
-    }
-    .green-shape {
-        width: 70%;
-        height: 400px;
-        background-color: #34421E;
-    }
-    /* orange shape */
-    .layout {
-        background-color: #C19434;
-        width: 18rem; height: 40rem;
-        position: absolute;
-        top: 25em; left: 5em;
-        display: flex;
-        flex-direction: column;        
-        justify-content: space-around;
-        z-index: 0;
-    }
-    .imgs {
-        width: 300px; height: 300px;
-        margin-top: 4rem;
-        margin-left: -2rem;
-    }
+.title-product {
+    color: #005B3A;
+    font-size: 56px;
+    text-align: center;
+    margin-left: -10rem;
+    margin-bottom: 25px;
+}
+.text-product {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+#liste > li {
+    font-size: 24px ;
+    font-family: 'Inter', sans-serif;
+    width: auto;
+}
+.container-imgs-product {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.first-line {
+    display: flex;
+}
+.second-line {
+    display: flex;
+}
+.contain-img {
+    width: 260px;
+    height: 260px;
+    background-color: #005B3A;
+    margin: 10px;
 }
