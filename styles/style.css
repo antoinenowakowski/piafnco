@@ -207,7 +207,7 @@ header {
 
 .reseaux {
     background-color: #FFFDF2;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -222,7 +222,7 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 1rem;
 }
 .row {
     width: 100%;
@@ -261,7 +261,6 @@ header {
 }
 .slider {
     width: 60rem; height: 30rem;
-    margin-top: 300px;
     display: flex;
     align-self: center;
 }
@@ -283,6 +282,15 @@ header {
     border-radius: 10px;
     transition-delay: 0.1s;
 }
+
+
+/* footer */
+footer {
+    height: 20rem;
+    background-color: #152821;
+}
+
+
 
 
 /* responsive */
