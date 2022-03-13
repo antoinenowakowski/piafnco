@@ -330,9 +330,13 @@ header {
         padding-top: 20px;
     }
     .title-service {
+        text-align: center;
+        width: auto;
         font-size: 92px;
     }
     .description-service {
+        text-align: center;
+        width: auto;
         font-size: 36px;
     }
 
