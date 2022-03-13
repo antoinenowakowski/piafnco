@@ -295,11 +295,13 @@ header {
     }
     .title-product {
         text-align: center;
+        font-size: 92px;
         width: auto;
     }
     .text-product {
         text-align: center;
         width: auto;
+        font-size: 36px;
     }
     #liste {
         text-align: center;
@@ -318,21 +320,20 @@ header {
         width: auto;
     }
 
-
     /* service */
     .service {
         flex-direction: column;
         align-items: center;
         height: auto;
     }
-    .title-product {
-        font-size: 92px;
-    }
-    .text-product {
-        font-size: 36px;
-    }
     .service-title-and-description, .icon-people {
         padding-top: 20px;
+    }
+    .title-service {
+        font-size: 92px;
+    }
+    .description-service {
+        font-size: 36px;
     }
 
     /* reset */
