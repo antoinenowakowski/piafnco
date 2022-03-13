@@ -185,7 +185,7 @@ header {
 }
 .bg-blue {
     background-color: #CAF0F5;
-    height: 80vh;
+    height: auto;
 }
 .title-partenaires {
     color: #152821;
