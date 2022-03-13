@@ -93,7 +93,7 @@ header {
 .title-product-and-service {
     color: #152821;
     font-family: 'Noto Serif KR', serif;
-    font-size: 56px;
+    font-size: 3rem;
     text-align: center;
     margin-top: 50px;
 }
@@ -321,4 +321,5 @@ header {
     .service {
         flex-direction: column;
     }
+    ..title-product
 }
