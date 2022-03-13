@@ -321,5 +321,7 @@ header {
     .service {
         flex-direction: column;
     }
-    ..title-product
+    .title-product {
+        font-size: 112px;
+    }
 }
