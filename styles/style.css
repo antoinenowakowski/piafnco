@@ -323,6 +323,7 @@ header {
     .service {
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
     .title-product {
         font-size: 92px;
