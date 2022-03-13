@@ -283,3 +283,30 @@ header {
     border-radius: 10px;
     transition-delay: 0.1s;
 }
+
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+    /* product */
+    .container-title-imgs {
+        flex-direction: column-reverse;
+        align-self: center;
+    }
+    .title-product {
+        text-align: center;
+        width: auto;
+    }
+    .text-product {
+        text-align: center;
+        width: auto;
+    }
+    #liste {
+        text-align: center;
+        width: auto;
+    }
+    /* service */
+    .service {
+        flex-direction: column;
+    }
+}
