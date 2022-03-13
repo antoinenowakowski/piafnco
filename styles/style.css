@@ -263,6 +263,7 @@ header {
     width: 60rem; height: 30rem;
     display: flex;
     align-self: center;
+    margin-top: 1rem;
 }
 .change-bg {
     align-self: center;
