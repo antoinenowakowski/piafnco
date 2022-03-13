@@ -2,7 +2,7 @@
 
 var listeOfAllImages = ["assets/Imgs/Carrousel/IMG1.png", "assets/Imgs/Carrousel/IMG2.png", "assets/Imgs/Carrousel/IMG3.png", "assets/Imgs/Carrousel/IMG4.png", "assets/Imgs/Carrousel/IMG5.png", "assets/Imgs/Carrousel/IMG6.png", "assets/Imgs/Carrousel/IMG7.png", "assets/Imgs/Carrousel/IMG8.png",]
 var pointeur = 0;
-var images = document.querySelector("#contain-img");
+var images = document.querySelector("#contain-img-slider");
 let init = images.style.backgroundImage = "url(" + listeOfAllImages[pointeur] + ")"; //init image one
 
 
