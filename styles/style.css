@@ -305,6 +305,10 @@ header {
         text-align: center;
         width: auto;
     }
+    .first-line, .second-line {
+        flex-direction: column;
+    }
+
     /* service */
     .service {
         flex-direction: column;
