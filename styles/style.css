@@ -360,6 +360,18 @@ footer {
         margin-top: 20rem;
     }
 
+
+    /* reseaux */
+
+    .reseaux {
+        height: 65vh;
+    }
+    .container-links {
+        margin-top: 10rem;
+    }
+
+
+
     /* reset */
     p {
         font-size: 36px;
