@@ -351,10 +351,14 @@ footer {
 
 
     /* partenaires */
-    /* .bg-blue {
-        height: auto;
-    } */
-
+    
+    .bg-blue {
+        background-color: #CAF0F5;
+        height: 60vh;
+    }
+    .container-images-partenaires {
+        margin-top: 20rem;
+    }
 
     /* reset */
     p {
