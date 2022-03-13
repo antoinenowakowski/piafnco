@@ -322,6 +322,16 @@ header {
         flex-direction: column;
     }
     .title-product {
-        font-size: 112px;
+        font-size: 92px;
+    }
+    .text-product {
+        font-size: 36px;
+    }
+    /* reset */
+    p {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 92px;
     }
 }
