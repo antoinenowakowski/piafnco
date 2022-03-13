@@ -169,7 +169,7 @@ header {
     margin-top: 20px;
 }
 .icon-people, .service-title-and-description {
-    padding-top: 350px;
+    padding-top: 250px;
 }
 
 
@@ -307,6 +307,7 @@ header {
     }
     .first-line, .second-line {
         flex-direction: column;
+        align-self: center;
     }
     .contain-img {
         width: 30rem;
@@ -317,9 +318,11 @@ header {
         width: auto;
     }
 
+
     /* service */
     .service {
         flex-direction: column;
+        align-items: center;
     }
     .title-product {
         font-size: 92px;
@@ -327,6 +330,10 @@ header {
     .text-product {
         font-size: 36px;
     }
+    .service-title-and-description, .icon-people {
+        padding-top: 20px;
+    }
+
     /* reset */
     p {
         font-size: 36px;
