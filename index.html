@@ -15,6 +15,8 @@
     <!-- Fichiers css -->
     <link rel="stylesheet" href="styles/important/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- icon du site -->
     <link rel="icon" href="assets/Logos/piaf_nco_blanc_rond_avec_un_dgrd.png">
 </head>
@@ -79,6 +81,65 @@
         </div>
     </section>
 
+    <section class="service">
+        <div class="icon-people">
+            <div class="icon-ppl">
+                <img src="assets/icons/people earth.png" alt="people earth">
+            </div>
+        </div>
+        <div class="service-title-and-description">
+            <h2 class="title-service">Service</h2>
+            <p class="description-service">Piafnco possède un service qui consiste <br>
+                à sensibiliser à la disparition animale, <br>
+                notamment celles des oiseaux <br>
+                et la protection des oiseaux. <br>
+                Nous allons intervenir dans des écoles (primaire & collège). <br>
+            </p>
+        </div>
+    </section>
+
+    <section class="partenaires">
+        <img src="assets/SHAPE/second wave.svg" alt="" class="blue-shape">
+        <div class="bg-blue">
+            <h2 class="title-partenaires">Nos partenaires :</h2>
+            <div class="container-images-partenaires">
+                <img src="assets/Logos/LPO-logo.gif" alt="">
+                <img src="assets/Logos/sogepi-logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="reseaux">
+        <div class="container-title-reseaux">
+            <h2 class="title-reseaux">Nos Réseaux :</h2>
+        </div>
+        <div class="container-links">
+            <div class="row-one row">
+                <a href="https://www.instagram.com/piafnco/" target="_blank"><img src="assets/Logos/reseaux/insta.png" alt=""></a>
+                <a href="https://www.tiktok.com/@piafnco?" target="_blank"><img src="assets/Logos/reseaux/tiktok.png" alt=""></a>
+                <a href="https://twitter.com/n_piaf" target="_blank"><img src="assets/Logos/reseaux/twitter.png" alt=""></a>
+            </div>
+            <div class="row-two row">
+                <a href="https://www.facebook.com/PiafNco-110129594786363" target="_blank"><img src="assets/Logos/reseaux/facebook.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCYNXu-ScS2BVVJmLOXS32jQ"><img src="assets/Logos/reseaux/youtube.png" alt=""></a>
+                <a href="mailto:piafnco@gmail.com"><img src="assets/Logos/reseaux/mail.png" alt=""></a>
+            </div>
+        </div>
+        <div class="wave-green">
+            <img src="assets/SHAPE/third wave.svg" alt="">
+        </div>
+    </section>
+
+    <section class="container-slider">
+        <div class="contain-title-us">
+            <h2 class="title-us">Nous en quelques photos :</h2>
+        </div>
+        <div class="slider">
+            <a class="change-image-left change-bg" onclick="javascript:ChangeImageLeft()"><img src="assets/icons/angle-left.svg" alt="" class="icon-slider"></a>
+            <div id="contain-img" style="background-size: cover; background-position: center;"></div>
+            <a class="change-image-right change-bg" onclick="javascript:ChangeImageRight()"><img src="assets/icons/angle-right.svg" alt="" class="icon-slider"></a>
+          </div>
+    </section>
     <!-- Fichiers JavaScript -->
     <script src="scripts/app.js"></script>
 </body>
