@@ -162,12 +162,18 @@
 
     <footer>
         <p style="color: #fff; font-family: 'Inter', sans-serif; text-align: center; padding-top: 8rem;">©Copyright Piafnco 2021-2022</p>
+        <p id="height"></p>
     </footer>
 
     <!-- Fichiers JavaScript -->
     <script src="scripts/app.js"></script>
     <script>
-        console.log("Hello, what are u doing in the devtools ?")
+        console.log("Hello, what are u doing in the devtools ?");
+
+        const InnerHeight = document.getElementById('height');
+        const HeightOfWindow = $(window).height();
+        InnerHeight.innerText = HeightOfWindow;
+        
     </script>
 </body>
 </html>
