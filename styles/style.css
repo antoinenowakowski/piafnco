@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 999;
 }
 .contain-title-and-logo {
     display: flex;
@@ -237,12 +238,8 @@ header {
     margin-bottom: 50px;
 }
 .row > a > img {
-    width: 210px; height: 210px;
+    width: 180px; height: 180px;
 }
-.wave-green {
-    margin-top: -200px;
-}
-
 
 /* speech */
 
@@ -257,19 +254,20 @@ header {
     font-family: 'Noto Serif KR', serif;
     padding-top: 1em;
 }
-.video-speech {
-    height: 34rem;
+.contain-video-speech {
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    height: 70%;
 }
-.video-speech > video {
-    height: 30rem;
+#video-speech {
+    width: 55%;
+    height: auto;
 }
 .button-vote {
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 .button-and-text {
     background-color: #FFFDF2;
@@ -402,7 +400,6 @@ footer {
     
     .bg-blue {
         background-color: #CAF0F5;
-        height: 60vh;
     }
     .container-images-partenaires {
         margin-top: 20rem;
@@ -414,10 +411,23 @@ footer {
     .reseaux {
         height: 65vh;
     }
-    .container-links {
-        margin-top: 10rem;
+    .row > a > img {
+        width: 105px; height: 105px;
+    }
+    .row {
+        margin-bottom: 25px;
     }
 
+    /* speech */
+    .video-speech {
+        height: 26rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+    .video-speech > video {
+        height: 32rem;
+    }
 
 
     /* reset */
@@ -427,4 +437,35 @@ footer {
     h2 {
         font-size: 92px;
     }
+}
+@media screen and (max-height: 900px) {
+    .button-vote {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 200px;
+    }
+    .button-and-text {
+        background-color: #FFFDF2;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 20px;
+        width: 190px;
+        height: 80px;
+    }
+    .contain-video-speech {
+        padding-top: 0em;
+        padding-bottom: 4rem;
+    }
+    .link-vote {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    .text-vote-speech {
+        color: #152821;
+        font-size: 32px;
+        margin-top: 2rem;
+    }
+    
 }
