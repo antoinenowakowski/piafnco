@@ -493,10 +493,15 @@ footer {
     .container-links {
         display: flex;
         flex-direction: column;
+        margin-top: 10rem;
+    }
+    .row > a > img {
+        width: 150px; height: 150px;
     }
     .row {
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-bottom: 50px;
     }
 }
