@@ -146,7 +146,7 @@
         </div>
         <div class="button-vote">
             <div class="button-and-text">
-                <a href="https://velfiepitch.com/concours/affichage/3F70D08B4366/1" target="_blank" class="link-vote"><h2 class="text-vote-speech">Votez ici !</h2></a>
+                <a href="https://velfiepitch.com/presentation-candidat/BC21353D82B3" target="_blank" class="link-vote"><h2 class="text-vote-speech">Votez ici !</h2></a>
             </div>
         </div>
     </section>
@@ -164,7 +164,8 @@
 
     <footer>
         <p style="color: #fff; font-family: 'Inter', sans-serif; text-align: center; padding-top: 8rem;">©Copyright Piafnco 2021-2022</p>
-        <p id="height"></p>
+        height de<p id="height"></p>
+        width de <p id="width"></p>
     </footer>
 
     <!-- Fichiers JavaScript -->
@@ -173,8 +174,11 @@
         console.log("Hello, what are u doing in the devtools ?");
 
         const InnerHeight = document.getElementById('height');
+        const InnerWidth = document.getElementById('width');
         const HeightOfWindow = $(window).height();
+        const WidthOfWindow = $(window).width();
         InnerHeight.innerText = HeightOfWindow;
+        InnerWidth.innerText = WidthOfWindow;
         
     </script>
 </body>
