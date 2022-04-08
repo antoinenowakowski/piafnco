@@ -489,7 +489,7 @@ footer {
     }
     
 }
-@media screen and (max-height: 1500px) and (max-width: 1000px) {
+@media screen and (max-height: 1800px) and (max-width: 1000px) {
     .container-links {
         display: flex;
         flex-direction: column;
